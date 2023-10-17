@@ -1,35 +1,26 @@
-2023-09-27 13:04:40	[Main thread]	INFO	vroom	cli_block	[1mRows: [22m[34m22[39m [1mColumns: [22m[34m8[39m
-2023-09-27 13:04:40	[Main thread]	INFO	vroom	cli_block	[36m──[39m [1mColumn specification[22m [36m────────────────────────────────────────────────────────────────────────────────────────────────────────────[39m [1mDelimiter:[22m "," [31mchr[39m (8): checkLevel, checkName, checkDescription, kahnContext, kahnCategory, kahnSubcategory, sqlFile, evaluationFilter
-2023-09-27 13:04:40	[Main thread]	INFO	vroom	cli_block	 [36mℹ[39m Use `spec()` to retrieve the full column specification for this data. [36mℹ[39m Specify the column types or set `show_col_types = FALSE` to quiet this message.
-2023-09-27 13:04:41	[Main thread]	INFO	DatabaseConnector	connectPostgreSql	Connecting using PostgreSQL driver
-2023-09-27 13:04:41	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: cdmTable
-2023-09-27 13:04:42	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: measurePersonCompleteness
-2023-09-27 13:04:43	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: measureConditionEraCompleteness
-2023-09-27 13:04:43	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: cdmField
-2023-09-27 13:04:56	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: isRequired
-2023-09-27 13:05:01	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: cdmDatatype
-2023-09-27 13:05:11	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: isPrimaryKey
-2023-09-27 13:05:12	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: isForeignKey
-2023-09-27 13:05:20	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: fkDomain
-2023-09-27 13:05:22	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: fkClass
-2023-09-27 13:05:22	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: isStandardValidConcept
-2023-09-27 13:05:25	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: measureValueCompleteness
-2023-09-27 13:05:41	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: standardConceptRecordCompleteness
-2023-09-27 13:05:44	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: sourceConceptRecordCompleteness
-2023-09-27 13:05:44	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: sourceValueCompleteness
-2023-09-27 13:05:47	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: plausibleValueLow
-2023-09-27 13:05:50	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: plausibleValueHigh
-2023-09-27 13:05:53	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: plausibleTemporalAfter
-2023-09-27 13:05:55	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: plausibleDuringLife
-2023-09-27 13:05:57	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: withinVisitDates
-2023-09-27 13:05:58	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: plausibleGender
-2023-09-27 13:06:13	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: plausibleUnitConceptIds
-2023-09-27 13:08:09	[Main thread]	INFO	DataQualityDashboard	.writeResultsToJson	Writing results to file: D:\_YES_2023-05-28\workspace\SosRunDataQualityDashboard\output/results.json
-2023-09-27 13:08:09	[Main thread]	INFO	DataQualityDashboard	executeDqChecks	Execution Complete
-2023-09-27 13:08:09	[Main thread]	INFO	DatabaseConnector	connectPostgreSql	Connecting using PostgreSQL driver
-2023-09-27 13:08:09	[Main thread]	INFO	DataQualityDashboard	.writeResultsToTable	Writing results to table demo_cdm_results.dqdashboard_results
-2023-09-27 13:08:09	[Main thread]	INFO	DatabaseConnector	executeSql	Executing SQL took 0.0348 secs
-2023-09-27 13:08:09	[Main thread]	WARN	DatabaseConnector	convertLogicalFields	Column 'warning' is of type 'logical', but this is not supported by many DBMSs. Converting to numeric (1 = TRUE, 0 = FALSE)
-2023-09-27 13:08:09	[Main thread]	WARN	DatabaseConnector	convertLogicalFields	Column 'error' is of type 'logical', but this is not supported by many DBMSs. Converting to numeric (1 = TRUE, 0 = FALSE)
-2023-09-27 13:08:10	[Main thread]	INFO	DatabaseConnector	insertTable.default	Inserting data took 0.749 secs
-2023-09-27 13:08:10	[Main thread]	INFO	DataQualityDashboard	.writeResultsToTable	Finished writing table
+2023-09-27 20:25:34	[Main thread]	INFO	vroom	cli_block	[1mRows: [22m[34m22[39m [1mColumns: [22m[34m8[39m
+2023-09-27 20:25:34	[Main thread]	INFO	vroom	cli_block	[36m──[39m [1mColumn specification[22m [36m────────────────────────────────────────────────────────────────────────────────────────────────────────────────[39m [1mDelimiter:[22m "," [31mchr[39m (8): checkLevel, checkName, checkDescription, kahnContext, kahnCategory, kahnSubcategory, sqlFile, evaluationFilter
+2023-09-27 20:25:34	[Main thread]	INFO	vroom	cli_block	 [36mℹ[39m Use `spec()` to retrieve the full column specification for this data. [36mℹ[39m Specify the column types or set `show_col_types = FALSE` to quiet this message.
+2023-09-27 20:25:34	[Main thread]	INFO	DatabaseConnector	connectPostgreSql	Connecting using PostgreSQL driver
+2023-09-27 20:25:34	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: cdmTable
+2023-09-27 20:25:36	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: measurePersonCompleteness
+2023-09-27 20:25:36	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: measureConditionEraCompleteness
+2023-09-27 20:25:36	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: cdmField
+2023-09-27 20:25:50	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: isRequired
+2023-09-27 20:25:55	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: cdmDatatype
+2023-09-27 20:26:05	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: isPrimaryKey
+2023-09-27 20:26:06	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: isForeignKey
+2023-09-27 20:26:14	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: fkDomain
+2023-09-27 20:26:15	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: fkClass
+2023-09-27 20:26:15	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: isStandardValidConcept
+2023-09-27 20:26:18	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: measureValueCompleteness
+2023-09-27 20:26:33	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: standardConceptRecordCompleteness
+2023-09-27 20:26:35	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: sourceConceptRecordCompleteness
+2023-09-27 20:26:36	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: sourceValueCompleteness
+2023-09-27 20:26:38	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: plausibleValueLow
+2023-09-27 20:26:41	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: plausibleValueHigh
+2023-09-27 20:26:43	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: plausibleTemporalAfter
+2023-09-27 20:26:46	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: plausibleDuringLife
+2023-09-27 20:26:47	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: withinVisitDates
+2023-09-27 20:26:48	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: plausibleGender
+2023-09-27 20:27:01	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: plausibleUnitConceptIds
