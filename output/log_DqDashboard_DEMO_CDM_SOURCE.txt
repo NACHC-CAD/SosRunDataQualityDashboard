@@ -24,3 +24,12 @@
 2023-09-27 20:26:47	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: withinVisitDates
 2023-09-27 20:26:48	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: plausibleGender
 2023-09-27 20:27:01	[Main thread]	INFO	DataQualityDashboard	FUN	Processing check description: plausibleUnitConceptIds
+2023-09-27 20:28:49	[Main thread]	INFO	DataQualityDashboard	.writeResultsToJson	Writing results to file: D:\_YES_2023-05-28\workspace\SosRunDataQualityDashboard\output/results.json
+2023-09-27 20:28:49	[Main thread]	INFO	DataQualityDashboard	executeDqChecks	Execution Complete
+2023-09-27 20:28:49	[Main thread]	INFO	DatabaseConnector	connectPostgreSql	Connecting using PostgreSQL driver
+2023-09-27 20:28:49	[Main thread]	INFO	DataQualityDashboard	.writeResultsToTable	Writing results to table demo_cdm_results.dqdashboard_results
+2023-09-27 20:28:49	[Main thread]	INFO	DatabaseConnector	executeSql	Executing SQL took 0.0184 secs
+2023-09-27 20:28:49	[Main thread]	WARN	DatabaseConnector	convertLogicalFields	Column 'warning' is of type 'logical', but this is not supported by many DBMSs. Converting to numeric (1 = TRUE, 0 = FALSE)
+2023-09-27 20:28:49	[Main thread]	WARN	DatabaseConnector	convertLogicalFields	Column 'error' is of type 'logical', but this is not supported by many DBMSs. Converting to numeric (1 = TRUE, 0 = FALSE)
+2023-09-27 20:28:50	[Main thread]	INFO	DatabaseConnector	insertTable.default	Inserting data took 0.969 secs
+2023-09-27 20:28:50	[Main thread]	INFO	DataQualityDashboard	.writeResultsToTable	Finished writing table
